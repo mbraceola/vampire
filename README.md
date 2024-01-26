@@ -1,2 +1,0 @@
-new update about liz
- 

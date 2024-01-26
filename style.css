@@ -1,0 +1,71 @@
+#H{
+padding:1px;    
+background-color:#0000ff ;
+color: aliceblue;
+}
+#S{
+   padding: 1px;
+   background-color: #ee82ee;
+   color:black
+}
+#C{padding:1px;
+    background-color: #ffa500;
+    color:black
+}
+.mint{
+    color: #0000ff;
+}
+
+.pool{
+    color:black
+}
+#nav{
+margin-top:50px;
+margin-bottom: 10px;
+margin-left: 10px;
+padding: 5px;
+border-radius: 20px;
+background-color: red;
+}
+#nav:hover{
+    background-color: green;
+    color: white;
+cursor: pointer;
+}
+
+#EGG{
+    background-color: #ee82ee;
+}
+#HS{
+background-color: green;
+color: white;
+}
+#SS{
+    background-color: aqua;
+    color: black;
+    
+}
+#CS{
+  background-color:tomato
+}
+#bl{
+    background-color:tomato
+}
+.same{
+    color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+#lol{
+    text-align: center;
+}
+#gh:hover{
+    color: blue;
+    background-color: hotpink;
+    cursor: pointer;
+}
+#gh{
+    border:10px solid;
+    border-radius: 5px;
+}
