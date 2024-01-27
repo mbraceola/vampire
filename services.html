@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body id="EGG">
-    <hr>
-    <ul>
+    <hr class="hp">
+    <div id="jungle">
+    <ul style="margin:1px ;">
         <li><a href="index.html"><button  id="HS">home</button></a></li><br>
         <li><a href="services.html"><button id="SS">service</button></a></li><br>
          <li><a href="contact.html"><button id="CS">contact</button></a></li>
     </ul>
-    <hr>
+    </div>
+    <hr class="hp">
 <h1>AVAILABLE FOOD VARIETY</h1>
 <img src="./IMG/rice.jpg" alt="rice" style="width:400px;"height:400px>
 <img src="./IMG/bean.jpg" alt="beans" style="width:400px;"height:400px>
@@ -25,12 +27,36 @@
 <form action="" id="lol">
     <label for="skibbo">full name</label>
     <br>
-    <input type="text" id="skibbo"><br>
-    <label for="gbagbo">country</label>
-    <br>
-    <input type="text" id="gbagbo"><br>
+    <input type="text" id="skibbo" placeholder="johnson">
+    <br><br>
+    <label>country</label><br>
+     <select>
+    <option value="">select</option>
+    <option value="">Albania</option>
+    <option value="">Australia</option>
+    <option value="">Belgium</option>
+    <option value="">Bolivia</option>
+    <option value="">Canada</option>
+    <option value="">Dubai</option>
+    <option value="">Nigeria</option>
+    <option value="">Togo</option>
+     </select><br><br>
+
     <label for="bingo">state</label><br>
     <input type="text" id="bingo">
+    <br><br>
+    <label for="zc">zip code</label><br>
+    <input type="tel"  id="zc" placeholder="200252"><br><br> 
+
+
+    <label for="em">email</label>
+    <br>
+    <input type="text"  id="em" required placeholder="example@gmail.com">
+    <br><br>
+    <label for="ph">mobile Number</label>
+    <br>
+    <input type="tel" id="ph">
+
     <h2>pay with</h2>
     <img src="./IMG/card.jpg" alt="payment type" style="width: 100px;"height:100px>
 
