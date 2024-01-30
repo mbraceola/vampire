@@ -17,7 +17,11 @@ color: aliceblue;
 }
 
 .pool{
-    color:black
+    color:black;
+    font-weight: 100;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
 }
 #nav{
 margin-top:50px;
@@ -43,6 +47,7 @@ color: white;
 #SS{
     background-color: aqua;
     color: black;
+
     
 }
 #CS{
@@ -57,11 +62,10 @@ color: white;
 h1{
     text-align: center;
 }
-#lol{
-    text-align: center;
-}
+
+
 #gh:hover{
-    color: blue;
+    color:blue;
     background-color: hotpink;
     cursor: pointer;
 }
@@ -73,13 +77,13 @@ h1{
 padding: 2px;
 background-color: black;
 margin:1px;
-
-
 }
 #roll{
     background-color: #ff0000
 }
 #jungle{
     background-color:maroon
-    
-}
+    }
+    #lol{
+    text-align: center;
+    }
