@@ -117,30 +117,36 @@ border-radius: 7px;
 #H:hover{
     background-color: maroon;
     font-weight:bold;
+    cursor: pointer;
 }
 #C:hover{
 background-color:lawngreen;
 color: black;
 font-weight: bold;
+cursor: pointer;
 }
 #S:hover{
 background-color: magenta;
 font-weight: bold;
+cursor: pointer;
 }
 #HS:hover{
     background-color: blue;
     font-weight: bold;
+    cursor: pointer;
 }
 #SS:hover{
 background-color:purple;
 color: #fafafa;
 font-weight: bold;
+cursor: pointer;
 
 }
 #CS:hover{
  background-color:gray;
  color: white;
 font-weight: bold;
+cursor: pointer;
 }
 
 
