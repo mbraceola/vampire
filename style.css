@@ -1,16 +1,19 @@
 #H{
-padding:1px;    
+padding:10px;    
 background-color:#0000ff ;
 color: aliceblue;
+border-radius: 10px;
 }
 #S{
-   padding: 1px;
-   background-color: #ee82ee;
-   color:black
+   padding: 10px;
+   background-color:#3cb371;
+   color: white;
+   border-radius: 10px;
 }
-#C{padding:1px;
+#C{padding:10px;
     background-color: #ffa500;
-    color:black
+    color:black;
+    border-radius: 10px;
 }
 .mint{
     color: #0000ff;
@@ -43,15 +46,22 @@ cursor: pointer;
 #HS{
 background-color: green;
 color: white;
+padding: 10px;
+border-radius: 10px;
+
 }
 #SS{
     background-color: aqua;
     color: black;
+    padding: 10px;
+    border-radius: 10px;
 
     
 }
 #CS{
-  background-color:tomato
+  background-color:tomato;
+   padding: 10px;
+   border-radius: 10px;
 }
 #bl{
     background-color:tomato
@@ -71,7 +81,8 @@ h1{
 }
 #gh{
     border:10px solid;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 .hp{
 padding: 2px;
@@ -87,3 +98,18 @@ margin:1px;
     #lol{
     text-align: center;
     }
+    .lamb{
+display: flex;
+list-style: none;
+border: none;
+justify-content: space-around;
+border-radius: 10px;
+}
+.jp{
+display: flex;
+justify-content: space-between;
+list-style: none;
+padding: 20px;
+
+
+}
