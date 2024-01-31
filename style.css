@@ -98,18 +98,21 @@ margin:1px;
     #lol{
     text-align: center;
     }
-    .lamb{
+.lamb{
 display: flex;
 list-style: none;
 border: none;
 justify-content: space-around;
-border-radius: 10px;
+border-radius: 7px;
 }
 .jp{
 display: flex;
 justify-content: space-between;
 list-style: none;
 padding: 20px;
+border: none;
+border-radius: 7px;
+
 
 
 }
