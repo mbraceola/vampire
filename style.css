@@ -93,9 +93,11 @@ margin:1px;
     background-color: #ff0000
 }
 #jungle{
-    background-color:maroon
+    background-color:maroon;
+    position: sticky;
+    top: 0;
     }
-    #lol{
+#lol{
     text-align: center;
     }
 .lamb{
@@ -148,6 +150,21 @@ cursor: pointer;
 font-weight: bold;
 cursor: pointer;
 }
+ @media screen and (max-width: 900px){
+    .vary{
+        display: grid;
+        grid-template-columns: repeat 3,1fr;
+    }
+ }
+@media screen and (max-width: 500px){
+
+.vary{
+    display:grid;
+    grid-template-columns: repeat 1,1fr;
+}
+
+}
+    
 
 
-
+ 
