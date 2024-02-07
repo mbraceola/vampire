@@ -137,6 +137,10 @@ cursor: pointer;
     font-weight: bold;
     cursor: pointer;
 }
+.rog{
+    font-size:70px;
+    margin:1px;
+}
 #SS:hover{
 background-color:purple;
 color: #fafafa;
@@ -158,10 +162,13 @@ cursor: pointer;
  }
 @media screen and (max-width: 500px){
 
-.vary{
-    display:grid;
-    grid-template-columns: repeat 1,1fr;
-}
+    .vary{
+        display:grid;
+        grid-template-columns: repeat 1,1fr;
+    }
+    .rog{
+        font-size:2rem;
+    }
 
 }
     
