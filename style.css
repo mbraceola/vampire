@@ -167,7 +167,7 @@ cursor: pointer;
         grid-template-columns: repeat 1,1fr;
     }
     .rog{
-        font-size:2rem;
+        font-size:40px;
     }
 
 }
